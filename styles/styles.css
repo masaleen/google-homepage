@@ -1,0 +1,21 @@
+.search {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+#search-box{
+   width: 60%;
+   height: 40px;
+    display: block;
+    clear: both;
+    margin: 25px auto;
+    box-shadow: 2px 2px 3px #d4d4d4;
+    border: 1px solid #eaeaea;
+}
+input[type=submit]{
+    background-color: #eaeaea;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #585858;
+}
