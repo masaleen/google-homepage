@@ -1,3 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    text-align: right;
+    margin: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    color: #272727;
+    font-size: .8em;
+    padding: 5px;
+}
+.top-nav-hover:hover {
+    text-decoration: underline;
+}
+.sign-in{
+    background-color: #1c35b0;
+    padding: 7px 11px;
+    border-radius: 3px;
+}
+.sign-in a{
+    color: white;
+    font-weight: bold;
+}
+li.sign-in:hover{
+    box-shadow: 1px 1px 4px #d4d4d4;
+}
 .search {
     margin: 0 auto;
     width: 50%;
@@ -18,4 +52,10 @@ input[type=submit]{
     padding: 10px 15px;
     font-weight: bold;
     color: #585858;
+}
+footer ul {
+    list-style-type: none;
+}
+footer li {
+    display: inline;
 }
