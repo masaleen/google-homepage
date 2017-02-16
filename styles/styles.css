@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 nav{
     text-align: right;
@@ -36,6 +37,7 @@ li.sign-in:hover{
     margin: 0 auto;
     width: 50%;
     text-align: center;
+    padding-top: 120px;
 }
 #search-box{
    width: 60%;
@@ -53,9 +55,26 @@ input[type=submit]{
     font-weight: bold;
     color: #585858;
 }
+footer {
+    background-color: #F2F2F2;
+    padding: 1px 0;
+    margin: 0;
+    width: 100%;
+    font-size: .8em;
+    position: fixed;
+    bottom: 0px;
+}
 footer ul {
     list-style-type: none;
 }
 footer li {
     display: inline;
+    padding-right: 20px;
+}
+footer li a {
+    color: #B6B6B6;
+    text-decoration: none;
+}
+.float-right {
+    float: right;
 }
