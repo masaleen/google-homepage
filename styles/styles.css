@@ -18,6 +18,11 @@ nav a{
     font-size: .8em;
     padding: 5px;
 }
+nav#search{
+    background: #F2F2F2;
+    margin: -25px 0 0 0;
+    padding-top: 20px;
+}
 .top-nav-hover:hover {
     text-decoration: underline;
 }
@@ -33,6 +38,9 @@ nav a{
 li.sign-in:hover{
     box-shadow: 1px 1px 4px #d4d4d4;
 }
+
+/* HOMEPAGE SEARCH SECTION */
+
 .search {
     margin: 0 auto;
     width: 50%;
@@ -55,6 +63,48 @@ input[type=submit]{
     font-weight: bold;
     color: #585858;
 }
+
+/* SEARCH RESULTS HEADER */
+
+.search-results-nav{
+    margin-top: -20px;
+    background-color: #F2F2F2;
+    padding-top: 25px;
+    height: 120px;
+}
+
+#form-search {
+    padding: 25px 25px 25px -20px;
+}
+#form-search ul li{
+    display: inline-block;
+}
+#form-search ul li:nth-child(-n+2){
+    float: left;
+}
+#form-search img{
+    width: 125px;
+    margin-left: -30px;
+}
+
+#search-box-results {
+    height: 40px;
+    width: 600px;
+    box-shadow: 2px 2px 3px #d4d4d4;
+    border: 1px solid #eaeaea;
+    margin-left: 20px;
+}
+#form-search-nav{
+    text-align: left;
+    margin: 40px 0 0 130px;
+}
+
+#form-search-nav ul li a:visited {
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+}
+/* FOOTER BEGINS */
+
 footer {
     background-color: #F2F2F2;
     padding: 1px 0;
